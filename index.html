@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">
+        <h1>
+            Tic tac toe
+        </h1>
+    </div>
+    <div id="gameBoard">
+        <div>
+            <button id="11" onclick="getId(this.id)">. .</button>
+            <button id="12" onclick="getId(this.id)">.  .</button>
+            <button id="13" onclick="getId(this.id)">.   .</button>
+        </div>
+        <div>
+            <button id="21" onclick="getId(this.id)">.   .</button>
+            <button id="22" onclick="getId(this.id)">.  .</button>
+            <button id="23" onclick="getId(this.id)">. .</button>
+        </div>
+        <div>
+            <button id="31" onclick="getId(this.id)">.  .</button>
+            <button id="32" onclick="getId(this.id)">.   .</button>
+            <button id="33" onclick="getId(this.id)">. .</button>
+        </div>
+    </div>
+    <div id="playerStatus">
+        Current player: Player1
+    </div>
+</body>
+</html>
