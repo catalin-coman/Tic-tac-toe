@@ -1,7 +1,17 @@
+h1 {
+    font-family:'Courier New', Courier, monospace
+}
+
 button {
     height: 40px;
     width: 40px;
 }
+
 div {
     text-align: center;
+}
+
+.playerStatusDiv {
+    padding-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
 }
