@@ -18,24 +18,27 @@
 
     <div id="gameBoard">
         <div>
-            <button id="11" onclick="getId(this.id)">. .</button>
-            <button id="12" onclick="getId(this.id)">.  .</button>
-            <button id="13" onclick="getId(this.id)">.   .</button>
+            <button id="11" onclick="makeMove(this.id)">. .</button>
+            <button id="12" onclick="makeMove(this.id)">.  .</button>
+            <button id="13" onclick="makeMove(this.id)">.   .</button>
         </div>
         <div>
-            <button id="21" onclick="getId(this.id)">.   .</button>
-            <button id="22" onclick="getId(this.id)">.  .</button>
-            <button id="23" onclick="getId(this.id)">. .</button>
+            <button id="21" onclick="makeMove(this.id)">.   .</button>
+            <button id="22" onclick="makeMove(this.id)">.  .</button>
+            <button id="23" onclick="makeMove(this.id)">. .</button>
         </div>
         <div>
-            <button id="31" onclick="getId(this.id)">.  .</button>
-            <button id="32" onclick="getId(this.id)">.   .</button>
-            <button id="33" onclick="getId(this.id)">. .</button>
+            <button id="31" onclick="makeMove(this.id)">.  .</button>
+            <button id="32" onclick="makeMove(this.id)">.   .</button>
+            <button id="33" onclick="makeMove(this.id)">. .</button>
         </div>
     </div>
 
     <div class="playerStatusDiv" id="playerStatusDiv">
         Current player: Player1
+    </div>
+
+    <div class="displayMessageDiv" id="displayMessageDiv">
     </div>
     
 </body>

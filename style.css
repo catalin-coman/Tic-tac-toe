@@ -15,3 +15,10 @@ div {
     padding-top: 1%;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.displayMessageDiv {
+    padding-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: red;
+}

@@ -3,13 +3,13 @@ var gameStatus = {
     movesLeft: 9
 }
 
-function getId(buttonId) {
+function makeMove(buttonId) {
     assignText(buttonId)
 
     if (checkWin()) {
-        alert (gameStatus.player + " Has won the game!")
+        displayMessage(gameStatus.player + " Has won the game!")
     } else if (checkDraw()) {
-        alert ("Draw!")
+        displayMessage("Draw!")
     } else {
         switchPlayer()
     }
@@ -69,4 +69,8 @@ function switchPlayer() {
         gameStatus.player = 'Player1'
     }
     document.getElementById('playerStatus').innerHTML = "Current player: " + gameStatus.player
+}
+
+function displayMessage(message) {
+    document.getElementById('displayMessageDiv').innerHTML = message
 }
